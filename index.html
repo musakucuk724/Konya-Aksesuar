@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -6,111 +7,103 @@
 <title>Konya Aksesuar</title>
 
 <style>
-body{
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial,sans-serif;
-background:#f4f4f4;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
 }
 
 header{
 background:#8B0000;
-color:white;
-padding:30px;
+color:#fff;
+padding:35px 20px;
 text-align:center;
 }
 
 header h1{
-margin:0;
-font-size:40px;
+font-size:42px;
 }
 
 header p{
 margin-top:10px;
-}
-
-nav{
-background:#222;
-padding:15px;
-text-align:center;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-weight:bold;
+font-size:18px;
 }
 
 .hero{
+background:#fff;
 padding:60px 20px;
 text-align:center;
-background:white;
 }
 
 .hero h2{
-font-size:35px;
+font-size:36px;
 color:#8B0000;
+margin-bottom:15px;
 }
 
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-padding:20px;
-}
-
-.card{
-background:white;
-width:260px;
-margin:15px;
-padding:20px;
-border-radius:12px;
-box-shadow:0 0 10px rgba(0,0,0,.2);
+.product{
+max-width:400px;
+margin:40px auto;
+background:#fff;
+border-radius:15px;
+padding:25px;
+box-shadow:0 0 15px rgba(0,0,0,.2);
 text-align:center;
 }
 
-.card img{
+.product img{
 width:100%;
-border-radius:10px;
-}
-
-.card h3{
-margin:15px 0;
+border-radius:12px;
 }
 
 .price{
-font-size:24px;
+font-size:30px;
+font-weight:bold;
 color:#8B0000;
+margin:20px 0;
+}
+
+.btn{
+display:block;
+width:100%;
+padding:15px;
+margin-top:15px;
+background:#8B0000;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
 font-weight:bold;
 }
 
-button{
-background:#8B0000;
-color:white;
-padding:12px 25px;
-border:none;
-border-radius:6px;
-cursor:pointer;
+.btn:hover{
+background:#a40000;
 }
 
-.about{
-padding:40px;
-text-align:center;
-background:#fff;
-}
-
-.contact{
-background:#222;
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px 20px;
+border-radius:50px;
 color:white;
-padding:30px;
-text-align:center;
+text-decoration:none;
+font-weight:bold;
 }
 
 footer{
-background:black;
+margin-top:60px;
+background:#111;
 color:white;
+padding:25px;
 text-align:center;
-padding:15px;
 }
 </style>
 </head>
@@ -119,63 +112,65 @@ padding:15px;
 
 <header>
 <h1>KONYA AKSESUAR</h1>
-<p>Düğün • Nişan • Kına • Kapı Süsleri</p>
+<p>Düğün • Nişan • Kına • Konvoy Aksesuarları</p>
 </header>
 
-<nav>
-<a href="#">Ana Sayfa</a>
-<a href="#">Ürünler</a>
-<a href="#">Hakkımızda</a>
-<a href="#">İletişim</a>
-</nav>
-
 <section class="hero">
-<h2>Hayalinizdeki Organizasyon İçin Her Şey</h2>
-<p>Kaliteli ve uygun fiyatlı organizasyon ürünleri.</p>
+<h2>Konvoy Araba Süsü</h2>
+<p>En özel günleriniz için şık tasarım.</p>
 </section>
+<section class="product">
 
-<section class="products">
+<img src="https://via.placeholder.com/500x500?text=Konvoy+Araba+Süsü" alt="Konvoy Araba Süsü">
 
-<div class="card">
-<h3>Kapı Süsü</h3>
-<p class="price">399 TL</p>
-<button>Sipariş Ver</button>
+<h2>Konvoy Araba Süsü</h2>
+
+<p>
+Düğün konvoyları için özel tasarlanmış,
+şık ve kaliteli araba süsü.
+</p>
+
+<div class="price">
+399 TL
 </div>
 
-<div class="card">
-<h3>Nişan Tepsisi</h3>
-<p class="price">699 TL</p>
-<button>Sipariş Ver</button>
-</div>
+<a class="btn"
+href="https://shopier.com/48684973"
+target="_blank">
+🛒 Shopier'den Satın Al
+</a>
 
-<div class="card">
-<h3>Kına Seti</h3>
-<p class="price">899 TL</p>
-<button>Sipariş Ver</button>
-</div>
+<a class="btn"
+href="https://wa.me/905434221279"
+target="_blank">
+💬 WhatsApp Sipariş
+</a>
 
-<div class="card">
-<h3>İsim Panosu</h3>
-<p class="price">549 TL</p>
-<button>Sipariş Ver</button>
-</div>
-
-</section>
-
-<section class="about">
-<h2>Hakkımızda</h2>
-<p>Konya Aksesuar olarak düğün, nişan ve kına organizasyonlarınız için kaliteli ve şık ürünler sunuyoruz.</p>
-</section>
-
-<section class="contact">
-<h2>İletişim</h2>
-<p>📞 05434221279</p>
-<p>📍 Konya</p>
 </section>
 
 <footer>
-© 2026 Konya Aksesuar | Tüm Hakları Saklıdır.
+
+<h2>Konya Aksesuar</h2>
+
+<p>
+📞 0543 422 12 79
+</p>
+
+<p>
+📍 Konya
+</p>
+
+<p>
+© 2026 Tüm Hakları Saklıdır.
+</p>
+
 </footer>
+
+<a class="whatsapp"
+href="https://wa.me/905434221279"
+target="_blank">
+WhatsApp
+</a>
 
 </body>
 </html>
