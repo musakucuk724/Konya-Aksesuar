@@ -1,15 +1,181 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Konya Aksesuar</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+}
+
+header{
+background:#8B0000;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h2{
+font-size:35px;
+color:#8B0000;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.card{
+background:white;
+width:260px;
+margin:15px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+.price{
+font-size:24px;
+color:#8B0000;
+font-weight:bold;
+}
+
+button{
+background:#8B0000;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.about{
+padding:40px;
+text-align:center;
+background:#fff;
+}
+
+.contact{
+background:#222;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
 </head>
-<body style="font-family:Arial;text-align:center;background:#f5f5f5">
+
+<body>
+
+<header>
 <h1>KONYA AKSESUAR</h1>
 <p>Düğün • Nişan • Kına • Kapı Süsleri</p>
-<h2>Hoş Geldiniz</h2>
-<p>Web sitemiz yapım aşamasındadır.</p>
+</header>
+
+<nav>
+<a href="#">Ana Sayfa</a>
+<a href="#">Ürünler</a>
+<a href="#">Hakkımızda</a>
+<a href="#">İletişim</a>
+</nav>
+
+<section class="hero">
+<h2>Hayalinizdeki Organizasyon İçin Her Şey</h2>
+<p>Kaliteli ve uygun fiyatlı organizasyon ürünleri.</p>
+</section>
+
+<section class="products">
+
+<div class="card">
+<h3>Kapı Süsü</h3>
+<p class="price">399 TL</p>
+<button>Sipariş Ver</button>
+</div>
+
+<div class="card">
+<h3>Nişan Tepsisi</h3>
+<p class="price">699 TL</p>
+<button>Sipariş Ver</button>
+</div>
+
+<div class="card">
+<h3>Kına Seti</h3>
+<p class="price">899 TL</p>
+<button>Sipariş Ver</button>
+</div>
+
+<div class="card">
+<h3>İsim Panosu</h3>
+<p class="price">549 TL</p>
+<button>Sipariş Ver</button>
+</div>
+
+</section>
+
+<section class="about">
+<h2>Hakkımızda</h2>
+<p>Konya Aksesuar olarak düğün, nişan ve kına organizasyonlarınız için kaliteli ve şık ürünler sunuyoruz.</p>
+</section>
+
+<section class="contact">
+<h2>İletişim</h2>
+<p>📞 0537 432 64 52</p>
+<p>📍 Konya</p>
+</section>
+
+<footer>
+© 2026 Konya Aksesuar | Tüm Hakları Saklıdır.
+</footer>
+
 </body>
 </html>
